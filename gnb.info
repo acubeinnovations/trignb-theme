@@ -1,0 +1,33 @@
+name = GNB-News
+description = Template for GNB.
+screenshot = img/screenshot.png
+core = 7.x
+version = 1.0
+project = GNB-News
+engine = phptemplate
+
+
+stylesheets[all][] = css/main.css
+scripts[] = js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+
+regions[content] = Content
+regions[nav-menu] = Main menu
+regions[slideshow] = Slideshow
+regions[list-radios] = List Radios
+regions[broadcasting-production-main-head] = Broadcasting Production Main Head
+regions[broadcasting-production-subone] = Broadcasting Production Subone
+regions[broadcasting-production-subtwo] = Broadcasting Production subtwo
+regions[broadcasting-production-subthree] = Broadcasting Production subthree
+regions[broadcasting-production-main-footer-splitone] = Broadcasting Production Main Footer Splitone
+regions[broadcasting-production-main-footer-splittwo] = Broadcasting Production Main Footer Splittwo
+regions[news-events-header] = News events header
+regions[rss-feeds] = Rss Feeds
+regions[rss-feeds-head] = Rss Feeds Head
+regions[gallery] = Gallery
+regions[gallery-head] = Gallery Head
+regions[news-letter] = News Letter
+regions[sub-footer-block-subone] = Sub Footer Block Subone
+regions[sub-footer-block-subtwo] = Sub Footer Block Subtwo
+regions[sub-footer-block-subthree] = Sub Footer Block Subthree
+regions[sub-footer-block-subfour] = Sub Footer Block Subfour
+regions[login] = Login

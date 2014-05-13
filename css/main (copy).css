@@ -1,0 +1,1933 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+@font-face {
+font-family: AvantGardeCE-Demi;
+font-weight: bold;
+src: url('../fonts/AvantGardeCE-Demi.ttf');
+}
+@font-face {
+font-family: Titilium-semibold;
+font-weight: bold;
+src: url('../fonts/Titillium-Semibold.ttf');
+}	 
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+	margin:0px;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+	margin:0px;
+	width:100%;
+	
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 14px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+   /* margin: 0 5%;*/
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container
+{
+  height:65px;
+  background-image:url(../img/header_bg.png)	
+}
+
+
+.footer-container,
+.main aside {
+    background:white; /*Default  #f16529*/
+}
+
+.title {
+    color: black;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+  
+
+nav ul {
+    margin: 0;
+    padding: 0;
+	background-color:grey;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: green; /*  Default : White */
+}
+
+nav a:hover,
+nav a:visited {
+    color: orange;
+	background-color:black;
+}
+
+nav a:hover {
+    text-decoration: none; /*  Default : underline */
+}
+.slideshow-wrap{
+background-color:#CC3;
+height:auto;
+background:url(../img/slider_bg.png)
+}
+.slideshow{
+margin:0 auto;
+}
+.nivo-directionNav a {
+	position:absolute;
+	top:84%;
+	z-index:9;
+	cursor:pointer;
+}
+.white-strip-wrap {
+width:100%;
+background-color:white;
+height:10px;
+}
+.radio-outer-wrap{
+background:url(../img/list-radios_bg.png);
+background-repeat:repeat-x;	
+margin:0px;
+width:100%;
+}
+.orange-strip-wrap {
+width:100%;
+background-color:#e95b47;
+}
+.orange-strip {
+margin:0 auto;
+background-color:#e95b47;
+height:5px;
+}
+.list-radios-wrap{
+width:100%;	
+background-repeat:repeat-x;
+/*padding-top:70px; */
+margin:0px;
+}
+.list-radios{
+margin:0 auto;
+
+}
+.broadcasting-production-wrap{
+width:100%;	
+background-color:#151515;
+}
+.broadcasting-production{
+margin:0 auto;
+height:auto;
+background:url(../img/broadcasting-production-inner_bg.png);
+}	
+.broadcasting-production-main-head{
+background-color:transparent !important;
+margin:0 auto;
+display:block;
+color:white;
+}
+.broadcasting-production-block-wrapper{
+
+background-color:transparent;
+margin:5 29;
+display:inline-block;
+}
+.broadcasting-production-subone,
+.broadcasting-production-subtwo,
+.broadcasting-production-subthree{
+padding: 0 10px;
+background-color:transparent;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}
+.broadcasting-production-main-footer{
+color:#666;
+}
+/* ---------------------- */
+.event{
+margin:0 auto;
+/*background:url(../img/list-radios_bg.png);*/
+}
+.event-header{
+margin:0 auto;
+background-color:transparent;
+    }   
+.event-block-wrapper{
+	width:100%;
+background-color:transparent;
+margin-top:5px;
+margin-bottom:29px;
+
+}
+
+.event-block-left{  
+padding: 0 10px;
+background-color: #666;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}
+
+
+.event-block-right{ 
+padding: 0 10px;
+background-color: #FFF;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}   
+.event-footer{
+margin:0 auto;
+background-color:#F00;
+}
+
+/* --------event ends---------- */
+/*-----footer starts--------*/
+.footer-wrap{
+width:100%;	
+background:url(../img/broadcasting-production_bg.png);
+}
+.footer{
+margin:0 auto;
+height:auto;
+
+}	
+.footer-header{
+background-color:transparent !important;
+margin:0 auto;
+display:none !important;
+color:white;
+}
+.footer-block-wrapper{
+
+background-color:transparent;
+margin:5 29;
+display:inline-block;
+}
+.footer-block-subone,
+.footer-block-subtwo,
+.footer-block-subthree,
+.footer-block-subfour{
+background-color:transparent;
+float: left;
+}
+.radiostation_holder{
+		text-align:center;
+		padding-top:8px;
+		display:none !important;
+		
+	}
+.radioppl{
+display:none !important;
+}
+.socialmedia-fonts-wrapper{
+width:100%;
+background-color:#2b2b2b !important;	
+}	
+.broadcasting-text{
+ padding:2px 2px 2px 2px !important;	
+ font-family:Titilium-semibold !important;
+ text-align:center !important;
+ font-size:14px !important;	
+ font-style:normal;
+ color:#666;
+ text-align:left;
+}
+
+
+
+ul.quicktabs-tabs.quicktabs-style-sky li a,
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+   width:50px;
+  min-height:30px;
+  height:30px;
+  float: left;
+  display: block;
+  line-height:25px !important;
+  padding: 0 8px 0px 8px;
+  text-decoration: none;
+  border-right: 0px solid #eee;
+  border-top: 0px solid #eee;
+  font-size: .95em;
+  background-color:#C06;
+  background: green;
+  color: #777;
+  position: relative;
+  margin:0px 5px 10px 5px !important;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li.active a {
+	  height:30px;
+	  background-color: #fff !important;
+	  min-height:30px;
+	}
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+	  background-position:top left;
+	  line-height:30 px;
+	}	
+ul.quicktabs-tabs.quicktabs-style-sky li a:hover,
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+  line-height: 3px;
+  text-decoration: none;
+  border-color: #B3B3B3;
+  background:orange;
+  color: black;
+  height:0px;
+}	
+
+
+
+	
+/*------Navigation Buttons-------*/	
+/*.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:5px;
+	top:80px;
+}
+
+.theme-default a.nivo-prevNav {
+	left:280px;
+	top:80px;
+}*/	
+/*------Navigation Buttons-------*/	
+
+
+/*------footer ends-------*/
+
+
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+nav a {
+   
+    color: white; /*  Default : White */
+}
+
+
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+		color: orange; /*  Default : White */
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+	
+.slideshow{
+width:500px; margin:0 auto;
+}
+.list-radios{
+width:500px; margin:0 auto;
+}
+.broadcasting-production{
+width:500px; margin:0 auto;
+height:auto;
+background:url(../img/broadcasting-production-inner_bg.png);
+}	
+.orange-strip {
+width:500px; margin:0 auto;
+background-color:#F96;
+height:5px;
+}
+.broadcasting-production-main-head{
+width:500px; 
+background-color:transparent !important;
+margin:0 auto;
+display:block;
+color:white;
+}
+.broadcasting-production-block-wrapper{
+width:100%; 
+background-color:transparent;
+margin:5 29;
+display:inline-block;
+}
+.broadcasting-production-subone,
+.broadcasting-production-subtwo,
+.broadcasting-production-subthree{
+padding: 0 10px;
+width: 275px;
+background-color:transparent;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}
+/* ---------------------- */
+.event-wrap{
+width:100%; 
+background:url(../img/list-radios_bg.png);
+    }
+.event{
+width:100%;    
+margin:0 auto;
+/*background:url(img/list-radios_bg.png);*/
+}
+.event-header{
+width:100%;    
+margin:0 auto;
+background-color:transparent;
+    }   
+.event-block-wrapper{
+width:100%; 
+background-color:transparent;
+margin-top:5px;
+margin-bottom:29px;
+
+
+}
+.region-event-block-wrapper > .block {
+	width:48% !important;
+	background:#FFF;
+	float:left;
+	margin:10px;
+	-webkit-box-shadow: 0 5px 10px #aaa;
+	-moz-box-shadow: 0 5px 10px #aaa;
+	box-shadow: 0 5px 10px #aaa;
+	height:120px;
+	
+}
+
+
+.event-block-left{  
+padding: 0 10px;
+width: 200px;
+background-color: green;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}
+
+
+.event-block-right{ 
+padding: 0 10px;
+width: 200px;
+background-color: #FFF;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}   
+.event-footer{
+width:500px;    
+margin:0 auto;
+background-color:#F00;
+}
+
+/* --------event ends-------------- */
+
+/*  ------footer starts---------- */
+.footer{
+width:500px; margin:0 auto;
+height:auto;
+}
+.footer-header{
+width:500px; 
+background-color:transparent !important;
+margin:0 auto;
+display:block !important;
+color:white;
+}
+.footer-block-wrapper{
+width:100%; 
+background-color:transparent;
+margin:5 29;
+display:inline-block;
+}
+.footer-block-subone,
+.footer-block-subtwo,
+.footer-block-subthree,
+.footer-block-subfour{
+width: 25%;
+background-color:transparent;
+float: left;
+}
+
+
+
+/*  -------footer ends----------*/
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+nav {
+        float: right; /*Default : float:right */
+        width: 850px;
+    }
+nav a {
+   width:auto;
+    color: orange; /*  Default : White */
+}	
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+	.slideshow{
+		width:768px; margin:0 auto;
+	}
+	.broadcasting-production{
+	width:768px; margin:0 auto;
+	height:auto;
+	background-image:url(../img/broadcasting-production-inner_bg.png);
+	background-position:top center;
+	}	
+	.list-radios{
+         width:768px; margin:0 auto;
+	}
+	.radiostation_holder{
+		display:block !important;
+		margin:0 auto;
+		background:url("../img/listradioheader.png")!important;
+		background-repeat:no-repeat !important;
+		background-position:top center !important;
+		height:80px !important;
+		width:768px !important;
+		
+	}
+	.radiostation_holder-wrap{
+		width:100%;	
+		height:80px;
+		background-repeat:repeat-x;	
+		margin:0px;
+	}
+	.orange-strip-wrap {
+    width:100%;
+    background-color:#e95b47;
+    height:15px;
+	margin-top:-10px;
+    }
+	.broadcasting-footer-seperator{
+		background:url(../img/separator.png);
+		
+	}
+	.broacasting-footer-bootom{
+		padding-bottom:10px;
+	}
+    .orange-strip {
+    width:768px; margin:0 auto;
+    background-color:#e95b47;
+    height:15px;
+    }
+    .broadcasting-production-main-head{
+    width:768px; 
+    background-color:transparent !important;
+    margin:0 auto;
+    display:inline-block;
+    color:white;
+    }
+    .broadcasting-production-block-wrapper{
+    width:100%; 
+    background-color:transparent;
+    margin:0px;
+    display:inline-block;
+    }
+    .broadcasting-production-subone,
+    .broadcasting-production-subtwo,
+    .broadcasting-production-subthree{
+    background-size: 100% auto;
+    float: left;
+    
+    width: 29%;
+    background-color:transparent;
+    display:inline-block;
+    padding: 0 10px;
+    margin: 0px 10px 3px 3px;
+    }
+    /* ---------------------- */
+    .event-wrap{
+    width:100%; 
+    background:url(../img/list-radios_bg.png);
+        }
+    .event{
+    width:100%;    
+    margin:0 auto;
+/*    background:url(img/list-radios_bg.png);*/
+    }
+    .event-header{
+    width:768px;    
+    margin:0 auto;
+    background-color:transparent;
+        }   
+    .event-block-wrapper{
+    width:100%; 
+    background-color:transparent;
+    margin: 0px 0px 0px 0px;
+   
+    
+    }
+
+    .event-block-left{  
+    background-size: 100% auto;    
+    width: 43%;
+    background-color: yellow;
+    float: left;
+    margin: 0px 10px 3px 10px;
+    display:inline-block;
+    }
+
+
+    .event-block-right{ 
+    background-size: 100% auto;    
+    width: 43%;
+    background-color: #FFF;
+    float: left;
+    margin: 0px 10px 3px 10px;
+    display:inline-block;
+    }   
+    .event-footer{
+    width:768px;    
+    margin:0 auto;
+    background-color:#F00;
+    }
+
+/* ---------------------- */
+/*-----footer starts-------- */
+	.footer{
+	width:768px; margin:0 auto;
+	height:auto;
+	}
+    .footer-header{
+    width:768px; 
+    background-color:transparent !important;
+    margin:0 auto;
+    color:white;
+	display:block !important;
+    }
+    .footer-block-wrapper{
+    width:100%; 
+    background-color:transparent;
+    margin:0px;
+    display:inline-block;
+    }
+    .footer-block-subone,
+    .footer-block-subtwo,
+    .footer-block-subthree,
+	.footer-block-subfour{
+    background-size: 100% auto;
+    float: left;
+    
+    width: 25%;
+    background-color:transparent;
+    }
+
+
+/*-----footer ends  -------- */
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	
+.broadcasting-production{
+  width:1024px; margin:0 auto;
+    height:auto;
+    background:url(../img/productionbg.png);
+	margin-top:-4;	
+	
+}
+    .broadcasting-production-main-head{
+    width:1024px; 
+    background-color:transparent !important;
+    margin:0 auto;
+    display:inline-block;
+    color:white;
+    }
+    .broadcasting-production-block-wrapper{
+    width:100%; 
+    background-color:transparent;
+    margin:0px 50px;
+    display:inline-block;
+    }
+
+    .broadcasting-production-subone,
+    .broadcasting-production-subtwo,
+    .broadcasting-production-subthree{
+    
+
+    margin: 0px;
+    width: 275px;
+    background-color:transparent;
+      
+    display:block;
+    padding: 0 10px;
+background-color:transparent;
+float: left;
+margin: 5px 12px 3px 3px;
+    }
+	.broadcasting-production-main-footer{
+		color:white;
+		width:1024px;
+		display:inline-block;
+		
+	}
+.list-radios{
+  width:1024px; margin:0 auto;
+}	
+.footer-block-wrapper{
+background-color:#242424;	
+}
+.radioppl{
+		position:relative;
+		bottom:0px;
+		left:130px;
+		top:0px;
+		padding-top:45px;
+		margin-top:-90px !important;
+		display:block !important;
+}	
+.broadcasting-text{
+ padding:2px 2px 2px 2px !important;	
+ font-family:Titilium-semibold !important;
+ text-align:center !important;
+ font-size:14px !important;	
+ font-style:normal;
+ color:#666;
+ text-align:left;
+ font:Titilium-semibold !important;
+}
+.footer-header{
+	text-align:center !important;
+}
+	
+}
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+ul.quicktabs-tabs.quicktabs-style-sky li a,
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+   width:86px;
+   height:80px;
+  float: left;
+  display: block;
+  height: 2.65em;
+  min-height: 2.95em;
+ /* line-height: 2.95em;* DEFAULT*/
+  line-height: 170px !important;
+  padding: 0 8px 0px 8px;
+  text-decoration: none;
+  border-right: 0px solid #eee;
+  border-top: 0px solid #eee;
+  font-size: .95em;
+  background-color:#C06;
+  background: #fff url('images/bg-shade-light.png') repeat-x bottom left;
+/*  background: #fff url('images/radio2.png') repeat-x bottom left;*/
+  color: #777;
+  position: relative;
+  margin:0px 5px 10px 5px !important;
+}
+ul.quicktabs-tabs.quicktabs-style-sky li a:hover,
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+  line-height: 170px !important;
+  text-decoration: none;
+  border-color: #B3B3B3;
+  background: #FFF url('images/bg-shade-medium.png') repeat-x bottom left;
+  color: #fff;
+}
+
+
+
+   
+nav {
+	float: right; /*Default : float:right */
+	width: 80%;
+	font-size:12px;
+	margin-top:10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	/*width:50%;*/
+	text-align:right;
+	
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+	margin-top:15px;
+    padding: 0px 0;
+	width:auto;
+	height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: orange; /*  Default : White */
+   
+	}
+
+	nav a:hover{
+	background-color:orange;
+	color:#FFF !important;
+	}
+	nav a:visited {
+		color: orange;
+	}
+	
+    .wrapper {
+        width: 1024px; /* 1140px - 10% for margins */
+        margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+    }
+    .slideshow{
+        width:1024px; margin:0 auto;
+    }
+		.list-radios{
+         width:1024px; margin:0 auto;
+	}
+    .broadcasting-production{
+    width:1024px; margin:0 auto;
+    height:auto;
+    background:url(../img/productionbg.png);
+	margin-top:-4;
+    }   
+
+    .broadcasting-production-main-head{
+    width:1024px; 
+    background-color:transparent !important;
+    margin:0 auto;
+    display:inline-block;
+    color:white;
+    }
+    .broadcasting-production-block-wrapper{
+    width:100%; 
+    background-color:transparent;
+    margin:0px 50px;
+    display:inline-block;
+    }
+
+    .broadcasting-production-subone,
+    .broadcasting-production-subtwo,
+    .broadcasting-production-subthree{
+    
+
+    margin: 0px;
+    width: 275px;
+    background-color:transparent;
+      
+    display:block;
+    padding: 0 10px;
+background-color:transparent;
+float: left;
+margin: 5px 12px 3px 3px;
+    }
+	.broadcasting-production-main-footer{
+		color:white;
+		width:1024px;
+		display:inline-block;
+		
+	}
+	.region-broadcasting-production-main-footer-splitone{
+		width:75%;
+		float:left;
+		
+	}
+	.region-broadcasting-production-main-footer-splittwo{
+		width:20%;
+		float:right;
+		margin-top:10px;
+	}
+/* ----------------------------------- */
+.event-wrap{
+width:100%; 
+background:url(../img/list-radios_bg.png);
+padding-bottom:25px;
+    }
+.event{
+width:100%;    
+margin:0 auto;
+/*background:url(../img/list-radios_bg.png);*/
+display:inline-block !important;
+    }    
+.event-header{
+width:1024px;    
+margin:0 auto;
+background-color:transparent;
+    }   
+.event-block-wrapper{	
+width:1024px !important;    
+margin-top:0px !important;
+margin-bottom:0px !important;
+margin-left:auto !important;
+margin-right:auto !important;
+background-color:white;
+}
+
+
+.event-block-left{  
+padding: 0 10px;
+width: 480px;
+background-color: teal;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}
+
+.event-block-right{ 
+padding: 0 10px;
+width: 480px;
+background-color: #FFF;
+float: left;
+margin: 5px 2px 3px 3px;
+display:block;
+}   
+.event-footer{
+width:1024px;    
+margin:0 auto;
+background-color:#F00;
+    }
+
+/*------------------------------------ */
+
+/* -------footer starts here----------  */
+.footer-wrap{
+    width:100%; margin:0 auto;
+    height:auto;
+	background-color:#242424 !important;
+   
+    } 
+.footer{
+    width:1024px;
+    height:auto;
+	background-image:url(../img/newmorebgnew.png) !important;	
+	background-color:#2b2b2b;
+    background-position:top center;
+	background-repeat:no-repeat;
+    }   
+    .footer-header{
+    width:1024px; 
+    height:45px;
+    margin:0 auto;
+    color:white;
+	background-color:#242424 !important;
+	position:relative;
+	text-align:center !important;
+	display:block !important;
+    }
+	.footer-header  img{
+	 position:relative;
+     top:-10px;
+    }
+	.footer-header-wrapper{
+		margin-top:-14px;
+		width:1024px; 
+		margin:0 auto;
+		background-color:#242424;	
+		
+	}
+    .footer-block-wrapper{
+    width:100%; 
+    background-color:#2b2b2b;
+    margin:0px;
+    display:inline-block;
+	background-image:url(../img/newmorebgnew.png) !important;	
+	background-position:top center;
+	background-repeat:no-repeat;
+    }
+
+    .footer-block-subone,
+    .footer-block-subtwo,
+	.footer-block-subthree,
+    .footer-block-subfour{
+    background-color:#2b2b2b;
+	color:white;
+    width: 25%;
+	margin-top:20px;
+	
+    }
+	.footer-footer-wrapper{
+		margin-top:-14px;
+		width:100% !important;
+		background-image:url(../img/more_bg.png);	
+		
+	}
+	.footer-footer-wrapper-subfooter{
+		
+		height:30px;
+		width:100% !important;
+		background-color:#2b2b2b;	
+	}
+	.footer-footer-wrapper-footer{
+		margin-top:-14px;
+		
+		width:100% !important;
+		background-color:#242424;	
+	}
+	.footer-subfooter{
+		height:30px;
+		background-color:#2b2b2b;	
+		background-image:url(../img/footer.png);	
+		background-position:bottom center;
+	    background-repeat:no-repeat;
+		width:1024px;
+		margin:0 auto;
+		color:grey;
+	}
+	.footer-footer{
+		height:65px;
+		background-color:#242424;	
+		width:1024px;
+		margin:0 auto;
+		color:grey;
+	}
+	.footer-title{
+			
+	}
+	/* Radio Listing 1 - 9*/
+	ul.quicktabs-tabs.quicktabs-style-sky li >a {
+		line-height:160px !important;	
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		box-shadow: 1px 5px 5px #C9C9C9;
+		height:100px;
+	  
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky li >a:hover {
+		line-height:170px !important;	
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		color:black;
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky > li.active a {
+		line-height:170px !important;	
+		font-size:12px;
+		font-weight:bold !important;
+		text-align:center;
+		box-shadow: 3px 0px 5px #C9C9C9;
+		height:118px !important;
+		
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky > li.active a:hover {
+		line-height:170px !important;	
+		font-size:12px;
+		font-weight:bold !important;
+		text-align:center;
+		color:black;
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(1) > a {
+	  background-image:url(../img/radio1.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+	  line-height:80px;
+	
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(2) > a {
+	  background-image:url(../img/radio2.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+	 
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(3) > a {
+	  background-image:url(../img/hayat.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+	  
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(4) > a {
+	  background-image:url(../img/josh.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(5) > a {
+	  background-image:url(../img/hum.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(6) > a {
+	  background-image:url(../img/radio2rock.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(7) > a {
+	  background-image:url(../img/smooth.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(8) > a {
+	  background-image:url(../img/spinneys.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	ul.quicktabs-tabs.quicktabs-style-sky li:nth-child(9) > a {
+	  background-image:url(../img/oasis.png) !important;
+	  background-position:top left;
+	  height:100px;
+	  background-repeat:no-repeat !important;
+    }
+	/* Radio Listing 1 - 9*/
+
+	ul.quicktabs-tabs.quicktabs-style-sky li.active {
+	  margin: -0.2em 18.7px 0 -5;
+	  height:105px; 
+	  width:100px;
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky li {
+      
+	  margin: -0.2em 18.7px 0 -5;
+	  height:120px; 
+	  width:100px;
+	  
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+	  background-position:top left;
+	  line-height:170 px !important;
+	}
+	ul.quicktabs-tabs.quicktabs-style-sky li.active a {
+	  height:105px !important;
+	  min-height:117px;
+	  background-color: #fff !important;
+	}
+	.radioppl{
+		position:relative;
+		bottom:0px;
+		left:130px;
+		top:0px;
+		padding-top:34px;
+		margin-top:0px !important;
+		display:block !important;
+	}
+	.seperator{
+		position:absolute;
+		bottom:0px;
+		left:465px;
+		padding-top:-40px;
+	}
+	
+	.seperator_holder{
+		text-align:center;
+		background-image:url("../img/saparator2.png");
+		background-position:top center !important;
+		background-repeat:no-repeat;
+		height:70px;
+	}
+
+/* -------footer ends here------------- */
+#facebook-likebox-3 iframe {
+    height: 400px !important;
+	border-bottom: 0px solid #AAA !important;
+	border: 5px solid #242424 !important;
+	
+}
+/* -------footer menu------------- */
+.footer-menu-container
+{
+  height:65px;
+  background-color:#242424 !important;
+  margin-top:20px;
+}
+.footer-menu-title{
+ float: left;
+ height:65px;
+ background-color:#242424;
+ font-size:15px;
+ line-height:73px;
+ color:grey;
+}
+.socialmedia-fonts{
+font-family:AvantGardeCE-Demi;
+text-align:center !important;
+font-size:16px !important;	
+}	
+
+.contactformwrapper{
+ width:100%;
+ display:inline-block;
+ background:url(../img/list-radios_bg.png) !important;
+ height:450px;
+}
+.contactformblockwrapper{
+ margin:0 auto;	
+ width:960px;
+ background-color:red !important;	
+ display:block;
+  margin-top:-95px;	
+}
+.contactformblockaddress{
+ width:300px;	
+ float:left;
+ display:block;
+ background-color:white;
+ height:417px;
+ padding-left:20px;
+ color:#666;
+}
+.contactformblockform{
+ width:640px;	
+ float:left;
+ display:block;
+ background-color:white;
+ color:#666;
+}
+.orange-strip-wrap-aboutus{
+ background-color:#f59332;	
+ width:100%;
+ height:75px;		
+}
+.orange-strip-aboutus{
+ margin:0 auto;	
+ background-color:#f59332;	
+ width:1024px;
+
+}
+.seperator-holder{
+ background-image:url("../img/Aboutus-seperator.png");
+ background-repeat:no-repeat;
+ background-position:bottom center !important;	
+
+}
+.broadcast-portfolio-wrap{
+width:100%; 
+background:url(../img/list-radios_bg.png);
+display:inline-block;
+height:auto;
+
+}
+.broadcast-portfolio-block-wrapper {
+width:1024px;
+display:block;
+margin:0 auto;
+background-color:white;
+
+}
+.region-broadcast-portfolio-wrap-block > .block {
+	width:48% !important;
+	float:left;
+	display:block;
+	background-color:white;
+	margin-left:1%;
+	padding-left:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:250px;
+	
+}
+
+#block-block-28{
+	background-color:#00adef;
+}
+#block-block-29{
+	background-color:#f1f1f1;
+}
+#block-block-30{
+	background-color:#000000;
+}
+#block-block-31{
+	background-color:#f3f3f3;
+}
+#block-block-32{
+	background-color:#e8e8e8;
+}
+#block-block-33{
+	background-color:#f4f2f3;
+}
+#block-block-34{
+	background-color:#f0f0f0;
+}
+#block-block-34{
+	background-color:#f5f5f5;
+}
+
+
+
+.broadcasting-portfolio-content{
+padding: 10px;
+display:inline-block;
+}
+.div1{
+padding-top:5px;
+width:30% !important;
+display:block;
+float:left !important;
+}
+.div2{
+	
+width:70% !important;
+display:block;
+float:left !important;
+color:white;
+}
+.div3{
+width:100%;
+float:left !important;
+color:white;
+
+}
+.div1-black-fonts{
+padding-top:5px;
+width:30% !important;
+display:block;
+float:left !important;	
+color:black;
+}
+.div2-black-fonts{
+width:70% !important;
+display:block;
+float:left !important;
+color:black;	
+}
+.div3-black-fonts{
+width:100%;
+float:left !important;
+color:black;	
+}
+.broadcast-header{
+font-size:33px;
+font-family: Titilium-semibold;
+color:white;	
+padding-top:25px;
+}
+.advertising-page-top-wrapper{
+width:100%;	
+background:url(../img/list-radios_bg.png);
+display:inline-block;
+}
+.advertising-page-top-block-wrapper{
+width:1024px;
+margin:0 auto;
+display:block !important;
+background-color:white;
+}
+.advertising-page-top-block-left{
+background-color:transparent !important;
+width:39%;
+float:left;
+}
+.advertising-page-top-block-right{
+margin-top:16px;	
+background-color:white;
+width:61%;
+float:left;
+}
+.advertising-page-bottom-wrapper{
+
+width:100%;
+background:url(../img/list-radios_bg.png);
+display:inline-block;
+
+}
+.advertising-page-bottom-block-header{
+margin:0 auto;	
+width:1024px;	
+display:block;
+background-color:white !important;
+
+}
+.advertising-page-bottom-block-wrapper{
+margin:0 auto;	
+width:1024px;	
+display:block;
+
+}
+.advertising-page-bottom-block-header-content{
+font-size:33px;
+font-family: Titilium-semibold;
+color:#999;
+padding:30px 0px 0px 40px;
+}
+.advertising-page-bottom-block-left-content{
+padding:25px 10px 5px 40px;	
+}
+.advertising-page-bottom-block-left{
+width:60%;
+float:left;
+display:block;
+background-color:white;
+height:339px;
+}
+.advertising-page-bottom-block-right{
+width:40%;
+float:left;
+display:block;
+background-color:white;
+}
+.advertising-page-bottom-block-footer{
+width:1024px;	
+display:block;
+background-color:white !important;
+}
+.production-page-media-wrapper{
+width:100%;
+display:inline-block;	
+background-color:#242424;
+height:800px;
+}
+.production-page-media-block{
+width:1024px;
+margin:0 auto;
+display:block;
+background-color:white !important;
+}
+.region-production-page-media-block > .block{
+width:31%;	
+height:295px !important;
+float:left;
+margin:70px 10px 10px 10px;
+-webkit-box-shadow: 0 5px 5px #aaa;
+-moz-box-shadow: 0 5px 5px #aaa;
+box-shadow: 0 5px 10px #aaa;
+height:120px;
+background-color:black !important;
+
+}
+
+.production-page-thumbnailscroll-wrapper{
+width:100%;
+height:400px;
+background-color:#e28830;	
+display:inline-block;
+
+}
+.production-page-thumbnailscroller-block{
+width:100%;
+height:180px;	
+background-color:transparent;
+margin:0 auto;
+margin-top:120px; /*default : 110*/
+display:block;
+
+}
+
+.production-page-voicebank-wrapper{
+width:100%;		
+background:url(../img/list-radios_bg.png);
+background-repeat:repeat-x;	
+height:696px;
+display:inline-block;
+}
+.production-page-voicebank{
+width:1024px;
+margin:0 auto;
+display:block;
+background-color:white;
+margin-top:120px;
+height:475px;	
+}
+.node-teaser {
+border-bottom: 1px solid #d3d7d9;
+margin-bottom: 30px;
+padding-bottom: 15px;
+}
+
+/* -------footer menu ends here------------- */
+
+#my_content{
+width:1024px;
+margin:0 auto;
+background:url(../img/list-radios_bg.png);
+background-repeat:repeat-x;	
+display:block;
+}
+#my_content_wrapper{
+width:100%;
+background:url(../img/list-radios_bg.png);
+background-repeat:repeat-x;	
+display:inline-block;
+}
+.node-news-and-events{
+overflow:hidden !important;
+background-color:white !important;
+width:482px;
+float:left;
+margin:10px;
+padding:5px;
+height:200px;
+}
+
+.radio-station-wrapper{
+width:100%;
+display:inline-block;
+background:url(../img/list-radios_bg.png);
+}
+.radio-station-main{
+width:1024px;
+display:block;
+height:auto;	
+margin:0 auto;
+
+}
+.orange-bold{
+color:#f59332;
+size:14px;
+font-weight:bold !important;
+}
+.black-bold{
+color:#000;
+size:14px;
+font-weight:bold !important;	
+}
+
+/*
+.radio-station-block-wrapper{
+width:1024px;
+margin:0 auto;	
+padding-top:50px;
+display:block;
+border-bottom:red solid 2px;
+}
+
+.radio-station-block-left{
+width:206px;
+float:left;
+
+} 
+.radio-station-block-right{
+width:743px;
+float:left;
+margin-left:75px;
+
+}  
+.radio-station-block-right-content{ 
+margin-top:10px;
+color:#2b2b2b;
+size:14px;
+width:646px;
+}
+.radio-station-block-right-socialmedia{
+
+position:relative;
+left:150px;
+height:70px;
+margin-left:-15px;
+vertical-align:top !important;
+display:block !important;
+}
+.twitter_buttons{
+background-image:url(../img/social-media-icons/twitterbtn.png);	
+height:40px !important;
+width:101px !important;
+display:block;
+float:left;
+}
+
+.facebook_buttons{
+background-image:url(../img/social-media-icons/facebookbtn.png);	
+height:40px !important;
+width:101px !important;
+display:block;
+float:left;
+}
+.aboness_buttons{
+background-image:url(../img/social-media-icons/abonnesbtn.png);	
+height:40px !important;
+width:101px !important;
+display:block;
+float:left;
+}
+.radio-url-buttons{
+background-image:url(../img/radio-stations/radio1ae.png);		
+height:44px !important;
+width:216px !important;
+display:block;
+position:relative;
+left:390px;
+
+}
+.orange-bold{
+color:#f59332;
+size:14px;
+font-weight:bold !important;
+}
+.black-bold{
+color:#000;
+size:14px;
+font-weight:bold !important;	
+}
+.radio-station-block-seperator{
+width:1024px;
+margin:0 auto;	
+display:block;
+height:2px;
+background-color:#d8d8d8;
+*/}
+
+/* PRAMOD SIRS RADIO STYLES STARTS HERE*/
+
+.radio h3{
+	text-align:center;
+	color:#0099FF;
+	background:#FF9900;
+}
+
+.radio-station-row{
+border-bottom:#d6d6d6 solid 2px !important;
+height:210px;
+margin-bottom:20px;
+}
+
+.views-row-odd{
+/* background:#fff; */
+}
+.views-row-even{
+/* background:yellow; */
+}
+
+
+.radio-station-row .views-field-field-socialimages{
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+}
+
+.radio-station-row .views-field-body{
+	width:724px;
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+	height:120px;
+	
+}
+
+.radio-station-row .views-field-field-facebook{
+float:right;
+width:100px;
+height:60px;
+}
+
+.radio-station-row .views-field-field-twitter{
+float:right;
+width:100px;
+height:60px;
+}
+.radio-station-row .views-field-field-twitter .field-content{
+	position:relative;
+	top:-15px;
+}
+
+
+.radio-station-row .views-field-title{
+float:right;
+width:150px;
+height:40px;
+background:#FF9900;
+text-align:center;
+line-height:40px;
+margin-right:20px;
+}
+
+.radio-station-row .views-field-title a{
+ color:white;
+text-decoration:none;
+}
+/* PRAMOD SIRS RADIO STYLES END HERE*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
