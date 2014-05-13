@@ -10,7 +10,13 @@
 		<!--logo end-->
 		<!--nav-menu start-->
 		<div class="nav-menu">
-				nav-menu
+				<nav>
+					<ul>
+					<?php
+					print theme('links__system_main_menu', array('links' => $main_menu));
+					?>
+					</ul>
+					</nav>
 		</div>		
 		<!--nav-menu end-->
 	</div>
