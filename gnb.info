@@ -6,9 +6,17 @@ version = 1.0
 project = GNB-News
 engine = phptemplate
 
-
+stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/main.css
-scripts[] = js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+stylesheets[all][] = css/main-default.css
+stylesheets[all][] = css/main-320.css
+stylesheets[all][] = css/main-480.css
+stylesheets[all][] = css/main-768.css
+stylesheets[all][] = css/main-1024.css
+
+scripts[] = js/main.js
+scripts[] = js/plugins.js
+
 
 regions[content] = Content
 regions[nav-menu] = Main menu
