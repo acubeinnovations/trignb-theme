@@ -1,0 +1,101 @@
+.production-wrap{
+width:100%;
+background:#000;
+padding:0;
+margin:0;
+}
+.production-header-wrap{
+background:url("/sites/all/themes/gnb/img/productions/production-page-header-bg.png");
+}
+
+.production-header{
+width:1024px;
+height:86px;
+margin:0 auto;
+padding:0;
+background:url("/sites/all/themes/gnb/img/productions/production-page-header.png") no-repeat ;
+background-size:1024px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/production-page-header.png',
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/production-page-header.png',
+sizingMethod='scale')";
+}
+
+.production-header-bottom-strip{
+width:100%;
+height:5px;
+margin:0 auto;
+padding:0;
+background:#e75a45;
+}
+
+.imaging-samples-wrap{
+background:#333333 ;
+}
+
+.imaging-samples-container{
+width:1024px;
+height:521px;
+background:#333333 ;
+margin:0 auto;
+padding:0;
+
+}
+
+.production-gallery-wrap{
+background: url("/sites/all/themes/gnb/img/productions/production-gallery-bg.png") ;
+}
+.production-gallery-container{
+width:1024px;
+height:216px;
+margin:0 auto;
+padding:0;
+background:url("/sites/all/themes/gnb/img/productions/production-gallery-dummy.png") no-repeat ;
+background-size:1024px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/production-gallery-dummy.png',
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/production-gallery-dummy.png',
+sizingMethod='scale')";
+}
+
+
+
+
+.voices-bank-wrap{
+background:url("/sites/all/themes/gnb/img/productions/voices-bank-bg.png")  ;
+}
+.voices-bank-container{
+width:1024px;
+height:372px;
+margin:0 auto;
+padding:0;
+background:url("/sites/all/themes/gnb/img/productions/voices-bank-dummy.png") no-repeat ;
+background-size:1024px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/voices-bank-dummy.png',
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='/sites/all/themes/gnb/img/productions/voices-bank-dummy.png',
+sizingMethod='scale')";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
